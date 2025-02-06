@@ -4,7 +4,6 @@ import static com.noderland.commons.constants.Constants.*;
 
 import com.noderland.commons.model.CallNodeMethodInput;
 import com.noderland.dash.service.model.JsonRpcServiceInput;
-
 import java.util.List;
 import java.util.Map;
 
