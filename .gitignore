@@ -1,0 +1,75 @@
+# Java ve Maven
+target/
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Log
+*.log
+
+# Spring Boot
+*.db
+*.h2.db
+*.mv.db
+*.trace.db
+*.pid
+
+# Test Raporları
+*.test-result
+surefire-reports/
+
+# Temporary Files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Security and Credential
+.env
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+*.nb-gradle/
+
+# Compiled class files
+*.class
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+todo
+test.json
