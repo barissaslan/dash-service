@@ -51,6 +51,7 @@ surefire-reports/
 
 # Security and Credential
 .env
+.testenv
 *.key
 *.pem
 *.crt
