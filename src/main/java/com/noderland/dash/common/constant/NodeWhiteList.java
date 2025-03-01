@@ -1,7 +1,9 @@
 package com.noderland.dash.common.constant;
 
 import java.util.List;
+import lombok.experimental.UtilityClass;
 
+@UtilityClass
 public class NodeWhiteList {
   public static final List<String> NODE_METHOD_WHITELIST =
       List.of(

@@ -6,7 +6,9 @@ import com.noderland.commons.model.CallNodeMethodInput;
 import com.noderland.dash.service.model.JsonRpcServiceInput;
 import java.util.List;
 import java.util.Map;
+import lombok.experimental.UtilityClass;
 
+@UtilityClass
 public class JsonRpcProcessMapper {
 
   public static JsonRpcServiceInput toInput(Map<String, Object> request) {
@@ -24,10 +26,10 @@ public class JsonRpcProcessMapper {
   private static Object[] parseParams(Object value) {
     if (value instanceof List<?> paramsList) {
       return paramsList.toArray(new Object[0]);
-    } else if (value instanceof Object[]) {
-      return (Object[]) value;
+    } else if (value instanceof Object[] parameters) {
+      return parameters;
     }
 
-    return null;
+    return new Object[0];
   }
 }
