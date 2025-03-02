@@ -31,6 +31,7 @@ Desktop.ini
 
 # Log
 *.log
+app-log.json
 
 # Spring Boot
 *.db
